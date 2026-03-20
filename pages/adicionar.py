@@ -75,5 +75,6 @@ try:
                 ingredientes=ingredientes,
                 modo_preparo=modo_preparo
             )
+            st.success(f'Receita {nome_receita} salva com sucesso!')
 except NameError:
     pass

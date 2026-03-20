@@ -90,5 +90,7 @@ try:
                     ingredientes=ingredientes,
                     modo_preparo=modo_preparo
                 )
+                st.success(f'Receita {receita} atualizada com sucesso!')
+                
 except NameError:
     pass
